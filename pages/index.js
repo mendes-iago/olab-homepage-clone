@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Inscreva-se</title>
+        <title>Newsletter OLAB Learning</title>
       </Head>
       <div
         style={{
@@ -17,9 +17,12 @@ export default function Home() {
           padding: "0 20px",
         }}
       >
-        <img src="images/OLAB_Logo.png" alt="Logo" width="150" />
-        <h1>Bem-vindo</h1>
-        <p>Assine e receba as últimas novidades!</p>
+        <img src="/images/OLAB_Logo.png" alt="Logo" width="150" />
+        <h1>Transforme seu conhecimento em ação!</h1>
+        <p>
+          Inscreva-se para receber dicas e conteúdos exclusivos sobre
+          sensoriamento remoto.
+        </p>
         <SubscriptionForm />
       </div>
     </>
